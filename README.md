@@ -23,7 +23,7 @@ The goal of this project is to train a machine learning model that can correctly
 ## 📁 Files Included
 
 * `handwritten_digit_recognition.ipynb`: The Jupyter notebook with all code.
-* (Optional) Sample test image like `r_7.png` for testing the model on real input.
+* (Optional) Sample test image like `img_7.png` for testing the model on real input.
 * `README.md`: This file.
 
 ---
@@ -66,17 +66,17 @@ jupyter notebook handwritten_digit_recognition.ipynb
 
 You can test your own handwritten digit image:
 
-1. Create an image (like `r_7.png`) that's 28x28 pixels in grayscale.
+1. Create an image (like `img_7.png`) that's 28x28 pixels in grayscale.
 2. Place the image in the same folder as the notebook.
 3. The notebook contains code to load and predict the digit using:
 
 ```python
-cv2.imread('r_7.png', cv2.IMREAD_GRAYSCALE)
+cv2.imread('img_7.png', cv2.IMREAD_GRAYSCALE)
 ```
 
 ---
 
-## 📊 Example Output
+## 📊 Output
 
 After training, the model typically achieves around **98% accuracy** on the test set.
 
